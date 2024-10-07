@@ -1,0 +1,135 @@
+.ImageList {
+     /* Set the height of the image list */
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+ height: 700px;
+    right: 100px;
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(0);
+    }
+    100% {
+      transform: translateY(-100%);
+    }
+  }
+  
+  .Image{
+ 
+   margin-top: 100px;
+  
+  }
+  .LandingPage {
+    background-image: url('/blob-scene-haikei (1).png');
+    background-size: cover; /* Ensures the image covers the entire container */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    height: 100vh; /* Full viewport height */
+    width: 100vw; /* Full viewport width */
+}
+
+  .ImageListContent {
+    animation: scroll 20s linear infinite;
+  }
+  
+  .ImageListItem {
+    width: 100%;
+    flex-shrink: 0;
+  }
+  
+
+  /* Adding the gradient overlay for top and bottom fade effect */
+  .ImageList::before,
+  .ImageList::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 50px; /* Adjust this height based on your preference */
+    z-index: 1;
+  }
+  
+  .ImageList::before {
+    top: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  }
+  
+  .ImageList::after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+  }
+
+
+  .Text{
+    margin-top: 100px;
+   
+
+  }
+
+  .Text2{
+    font-size: 100px;
+      font-family: "Lora";
+      color: rgb(143, 118, 116);
+      margin-right: -200px;
+      padding-left:100px;
+      
+      
+    }
+
+    .sub-text{
+        font-size: 100px;
+      font-family: "Lora";
+      color: rgb(143, 118, 116);
+      padding-left:100px;
+     
+    }
+    .sub-high{
+        font-size: 110px;
+        font-family: "Lora";
+        padding-left:50px;
+        color: rgb(255,100,82);
+        margin-right: -200px; 
+    }
+    .high{
+        font-size: 110px;
+        font-family: "Lora";
+        padding-left:250px;
+        color: rgb(255,100,82);
+        margin-right: -200px;
+      
+        
+    }
+    .high2{
+        font-size: 110px;
+        font-family: "Lora";
+        padding-left:250px;
+        color: rgb(143, 118, 116);
+        margin-right: -200px;
+      
+        
+    }
+  .Text1 {
+  font-size: 30px;
+    font-family: "Lora";
+    padding-left: 40px;
+    color: #fcfcfc;
+  }
+  .Text3{
+    font-size: 26px;
+      font-family: "Lora";
+      padding-left: 30px;
+      color: rgb(143, 118, 116);        
+    }
+
+    .btn1{
+        background-color:  rgb(255,100,82);
+        color: white;
+        border: 0;
+border-radius: 10px;
+        height: 50px;
+        width: 180px;
+        font-size: 26px;
+        margin-left: 100px;
+    }

@@ -1,0 +1,81 @@
+
+.containerPIG{
+    align-content: center;
+    margin-left: 300px;
+    margin-top: 200px;
+    bottom: -40px;
+  
+  
+   }
+
+   .form-contaiNER{
+     
+    height: 100%;
+   width: 120%;
+   margin-left: 50px;
+   border: #d1d1d1 2px solid;
+  
+  }
+
+  .form-container-DIVV {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin-top: 140px;
+    margin-right: 100px;
+  }
+  .IMMG-container{
+    flex: 1;
+    padding-right: 10px; /* Adjust spacing between image and form */
+    background-size: cover; /* Adjust background image size */
+    background-position: center; /* Center the background image */
+    height: 120%;
+  }
+
+    .head-signUp {
+      font-size: 50px;
+      text-align: center; /* Centers the heading */
+      color: rgb(255, 77, 58);
+      margin-top: 20px; /* Adjust the space above the heading */
+      margin-bottom:-100px; /* Adjust the space below the heading to bring it above the grid */
+    }
+    
+   .form-contENt {
+    flex: 2;
+    
+  }
+  
+   
+   .register {
+     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+     -webkit-background-clip: text; /* Apply the gradient to the text */
+     background-clip: text;
+     color: transparent; /* Set text color to transparent */
+     font-family: 'Quattrocento';
+     font-size: 45px;
+     margin-left: 40px;
+     background-image: url('/illus.jpeg'); /* Set the background image */
+     background-size: cover; /* Adjust background image size */
+     background-position: center; /* Center the background image */
+   }
+  
+  
+   /* Your existing styles for form fields and labels go here */
+   
+    .ant-form-item-label {
+     
+     font-weight: bold; /* Make label text bold */
+        
+    }
+   
+   
+   /* Target error message */
+   .ant-form-item-explain-error {
+     color: red; /* Change error message color */
+     padding: 10px;
+   }
+   
+   
+   
+   

@@ -1,0 +1,51 @@
+.profileBox{
+
+    margin-top: 100px;
+    margin-left: 300px;
+    width: 2000px;
+}
+.head{
+    font-size: 50px;
+    color: rgb(255, 77, 58);
+}
+.head1{
+    font-size: 20px;
+    color: rgb(74, 74, 74);
+}
+
+.createReferenceID{
+    border: 2px solid rgb(251, 142, 129);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.walletAmount{
+    border: 2px solid rgb(251, 142, 129);
+    padding: 100px;
+    border-radius: 10px;
+}
+.walletAmount-text{
+    font-size: 34px;
+    font-weight: bold;
+
+}
+
+.walletAmount-textt{
+    font-size: 64px;
+    font-weight: bold;
+    color: rgb(255, 77, 58);
+    margin-bottom: 20px;
+    padding-left: 12px;
+
+}
+.walletAmount-text-div{
+    display: flex;
+}
+
+.walletAmount-textt-new{
+    font-size: 44px;
+    font-weight: bold;
+    color: rgb(255, 77, 58);
+    margin-bottom: 20px;
+    padding-left: 12px;
+}

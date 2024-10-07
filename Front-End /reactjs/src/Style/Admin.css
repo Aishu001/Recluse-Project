@@ -1,0 +1,56 @@
+.box{
+    border: 2px solid rgb(102, 255, 102);
+    padding: 10px;
+    width: 500px;
+    border-radius: 10px;
+    color: white;
+    background-color:rgb(161, 88, 230);
+}
+.boxv{
+    border: 2px solid green;
+    padding: 10px;
+    background-color: rgb(51, 158, 229);
+    width: 500px;
+    border-radius: 10px;
+    color: white;
+}
+.box h1{
+    text-align: end;
+}
+.boxv h1{
+    text-align: end;
+}
+.boxv p{
+    font-size: 26px;
+}
+.box p{
+    font-size: 26px;
+}
+.Boc{
+    margin-left: 500px;
+    margin-top: 50px;
+
+}
+.walletPoint{
+    margin-left: 500px;
+    margin-top: 90px;
+    border: 2px solid rgb(1, 93, 146);
+    width: 700px;
+    padding: 20px;
+    border-radius:10px ;
+}
+.walletPoint h1{
+   font-size: 36px;
+}
+.walletPoint input{
+    font-size: 26px;
+ }
+ .walletPoint button{
+    font-size: 20px;
+    margin-left: 20px;
+    background-color: rgb(43, 136, 190);
+    padding:10px;
+    border: 0;
+    border-radius: 10px;
+    color: white;
+ }

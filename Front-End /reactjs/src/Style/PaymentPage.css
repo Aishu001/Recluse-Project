@@ -1,0 +1,165 @@
+/* Payment.css */
+
+.container-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+   
+  }
+  .container-center-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    margin: 0;
+  }
+
+  .Containerstext {
+    display: flex;
+    justify-content: space-between; /* Align items to both ends */
+    text-align: right;
+    border: 1px solid rgb(156, 156, 156);
+    padding: 9px;
+    width: 100%;
+    height: 120px;
+    margin-top: 200px;
+    margin-left: 200px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    background: rgb(255, 255, 255);
+    box-shadow: 34px 34px 68px #f4f2f2;
+  }
+
+  .priceDet{
+    display: flex;
+  }
+  
+  .tit {
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 19px;
+  }
+
+  p{
+   
+    font-size: 11px;
+    font-weight: bolder;
+  }
+
+  .prr{
+    font-size: 19px;
+  }
+
+  .form{
+    width: 40%; /* Set the width to a reasonable value */
+    height: 29px;
+    padding: 9px;
+    text-align: left;
+    border: 0;
+    border-bottom: 1px solid rgb(120, 120, 120);
+    font-size: 11px;
+  }
+  
+  span {
+    font-size: 12px;
+    font-weight: bold;
+    margin: 5px;
+  }
+  
+  .imgBtn {
+    width: 10px;
+    height: 20px;
+    margin: 10px;
+    border: 0;
+    border-bottom: 1px solid rgb(120, 120, 120);
+    flex-shrink: 0; /* Prevent the image from shrinking */
+  }
+  
+  
+
+  
+  /* Styles for the payment form container */
+  .Containers {
+    border: 1px solid rgb(156, 156, 156);
+    padding: 10px;
+    border-radius: 10px;
+    width: 65%; /* Adjust the width as needed */
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 200px;
+    border-radius: 29px;
+    background: rgb(254, 255, 254);
+    box-shadow: 4px 4px 10px #dedede, -34px -34px 68px #e3e3e3;
+    margin-bottom:600px ;
+    padding: 10px;
+  }
+ 
+  
+
+  
+  /* Styles for form items */
+
+  
+  
+
+  /* Adjust the padding for the input */
+  
+  /* Styles for the QR code container */
+  .qr-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+  }
+  
+  /* Styles for the payment button */
+  .payment {
+    align-content: center;
+    height: 30px;
+    padding: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 20px;
+    margin-top: 5px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    color: black;
+    border: 2px solid rgb(0, 0, 0);
+   
+  }
+  /* Payment.css */
+
+/* Add the following style to make the form items inline */
+
+
+  
+  .makeInline {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next line */
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .cvv {
+    width: 30%;
+    height: 30px;
+    font-weight: bold;
+    font-size: 11px;
+    text-align: left;
+    border: 0px;
+    border-bottom: 1px solid rgb(6, 6, 6);
+    margin-top:5px ;
+  }
+  
+  .expiry {
+    width: 15%;
+    height: 30px;
+    font-size: 11px;
+    margin: 8px;
+    text-align: left;
+    border: 0px;
+    border-bottom: 1px solid rgb(6, 6, 6);
+  }
+  

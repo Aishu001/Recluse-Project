@@ -1,0 +1,67 @@
+.containerX{
+    align-content: center;
+    padding: 10%;
+    margin-left: 200px;
+   
+   }
+   .form-containerF{
+     height: 97%;
+    width: 100%;
+    border: #dadada 2px solid;
+    padding: 10px;
+   
+   
+    
+   }
+   
+   .form-container-divVC {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+   
+   }
+   .image-container-fomrs{
+     flex: 1;
+     padding-right: 20px; /* Adjust spacing between image and form */
+     border: #d1d1d1 2px solid;
+     background-size: cover; /* Adjust background image size */
+     background-position: center; /* Center the background image */
+     height: 100%;
+   }
+   
+   .imageSC{
+     width: 100%;
+     height: 100%;
+     bottom: -400px;
+   }
+
+   .register {
+     background-image: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+     -webkit-background-clip: text; /* Apply the gradient to the text */
+     background-clip: text;
+     color: transparent; /* Set text color to transparent */
+     font-family: 'Quattrocento';
+     font-size: 45px;
+     margin-left: 40px; 
+     background-size: cover; /* Adjust background image size */
+     background-position: center; /* Center the background image */
+   }
+   
+   .terms{
+     color: rgb(163, 163, 163);
+   }
+   
+   
+    .ant-form-item-label {
+     
+     font-weight: bold; /* Make label text bold */
+     
+   
+    }
+   
+   
+   /* Target error message */
+   .ant-form-item-explain-error {
+     color: red; /* Change error message color */
+     padding: 10px;
+   }
